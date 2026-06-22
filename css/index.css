@@ -109,3 +109,13 @@ a {
   fill: white;
   transform: scale(1.2);
 }
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .btn {
+    width: 12em;
+    height: 4em;
+  }
+}
